@@ -132,7 +132,7 @@ func (a {{{classname}}}) {{{nickname}}}({{#allParams}}{{paramName}} {{{dataType}
 {{/hasFormParams}}
 {{#hasBodyParam}}
 {{#bodyParams}}	// body params
-	localVarPostBody = &{{paramName}}
+	localVarPostBody = {{paramName}}
 {{/bodyParams}}
 {{/hasBodyParam}}
 {{#returnType}}
